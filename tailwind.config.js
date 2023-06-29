@@ -1,6 +1,11 @@
 module.exports = {
-  purge: [],
-  darkMode: false,
+  purge: {
+    enabled: true,
+    content: [
+      './src/**/*.html',
+      './src/**/*.ts',
+    ]
+  },
   theme: {
     extend: {},
   },
