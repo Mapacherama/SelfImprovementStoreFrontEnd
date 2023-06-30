@@ -1,0 +1,14 @@
+/* Example Tailwind CSS styling */
+.mat-toolbar-row {
+  @apply text-white text-2xl;
+}
+
+div, .header-search{
+mat-form-field {
+  @apply w-64 md:w-96;
+}
+}
+
+.search-icon {
+  @apply text-indigo-800 text-2xl;
+}
